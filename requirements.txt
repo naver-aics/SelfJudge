@@ -1,0 +1,14 @@
+# Derived from garipovroma/autojudge (Apache-2.0):
+#   https://github.com/garipovroma/autojudge/blob/cf180e89a8718e10a34ccf222a2a96e786e24a20/requirements.txt
+# Modifications for SelfJudge:
+#   - rpyc dropped (only needed by AutoJudge's gpu_parallel launcher, not included here).
+
+transformers==4.46.1
+torch==2.5.1
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas
+tqdm
+termcolor
+accelerate
+datasets
